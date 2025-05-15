@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { detectEmotions, type DetectEmotionsOutput } from '@/ai/flows/detect-emotions';
 import { ImageUploadSection } from '@/components/image-upload-section';
 import { EmotionResultsSection } from '@/components/emotion-results-section';
-import { FaceFeelLogo } from '@/components/facefeel-logo';
 import { Separator } from '@/components/ui/separator';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { AlertTriangle } from 'lucide-react';

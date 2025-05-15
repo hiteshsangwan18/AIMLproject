@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'FaceFeel - Emotion Detection',
-  description: 'Upload an image to detect facial expressions and emotions.',
+  title: 'Emotion Detection',
+  description: '',
 };
 
 export default function RootLayout({
