@@ -33,9 +33,6 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center min-h-screen p-4 md:p-8 bg-gradient-to-br from-background to-secondary/30">
       <header className="w-full max-w-5xl mb-8 text-center md:text-left">
-        <div className="flex justify-center md:justify-start items-center py-4">
-          <FaceFeelLogo />
-        </div>
         <h1 className="text-3xl md:text-4xl font-bold text-primary tracking-tight mt-2">
           Understand Emotions with AI
         </h1>
@@ -62,12 +59,6 @@ export default function HomePage() {
           <EmotionResultsSection analysisResult={analysisResult} />
         </div>
       </main>
-
-      <footer className="w-full max-w-5xl mt-12 py-6 text-center text-muted-foreground text-sm">
-        <Separator className="mb-4" />
-        <p>&copy; {new Date().getFullYear()} FaceFeel. All rights reserved.</p>
-        <p>Powered by Genkit AI & Next.js</p>
-      </footer>
     </div>
   );
 }
